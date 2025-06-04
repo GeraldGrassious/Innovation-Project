@@ -1,0 +1,166 @@
+:root {
+    --title: #111D4A;
+    --colour1: #f5d6ba;
+    --colour2: #DABDA4;
+    --colour3: #D0B298;
+}
+
+/*these disable scrollbar hopefully*/
+.scroll::-webkit-scrollbar {
+    display:none;
+}
+.scroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+h1 {
+    font-family: 'Courier New';
+    text-align: center;
+    background-color: var(--title);
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    font-size: 90px;
+}
+
+h2 {
+    font-family: 'Courier New';
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    font-size: 30px;   
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--colour1);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+header {
+    background-color: var(--title);
+    font-family: 'Courier New';
+    text-align: left;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    position: fixed
+}
+
+.sep {
+    font-size: 50px;
+    background-color: var(--colour3);
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Courier New';
+    margin-left: 20px;
+    color: white;
+}
+
+p {
+    font-family: 'Courier New';
+    color:white;
+    font-size: 23px;
+}
+
+div {
+    background-color: var(--colour2);
+    height: 300px;
+    border: 5px solid var(--colour3);
+    border-radius: 50px;
+    word-wrap: break-word;
+}
+
+img {
+    margin: 34px;
+    margin-right: 60px;
+    float: right;
+    border: 7px solid var(--colour3);
+    border-radius: 20px
+}
+
+#img1 {
+    height: 37%;
+    width: 36%;
+}
+
+#title {
+    padding: 300px;
+    background-color: var(--title);
+    height: 240px;
+    border-radius: 0px;
+    border: 0px
+}
+
+#titletext {
+    margin-top: 50px;
+}
+
+#selected {
+    text-decoration: underline;
+    text-underline-offset: 0.4em;
+}
+
+.Litemholder {
+    width:50%;
+    height:100%;
+    font-size: 30px;
+    margin: 30px;
+    padding:30px;
+    display:inline-block;
+}
+
+.dropcontent {
+    background-color: var(--colour2);
+    height:fit-content;
+    object-fit:cover;
+    margin: 0px;
+    border: var(--colour3);
+    border-radius: 0px;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+    font-weight: normal;
+}
+
+.dropword {
+    padding:10px;
+}
+
+details {
+    background-color: var(--colour3);
+    padding: 0px;
+    margin:auto;
+    margin-bottom: 30px;
+    font-family: "Courier New";
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    width: 60%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#source {
+    border-radius: 0px;
+    border: 0px;
+    background-color: var(--colour3);
+}
+
+.link {
+    text-decoration: underline;
+    text-underline-offset: 0.1em;
+}
+
+.dropimg {
+    margin: 0 auto; 
+    border-top-right-radius: 0px;
+    width: 45%;
+    height: 45%;
+}
